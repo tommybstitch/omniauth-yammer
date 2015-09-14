@@ -2,9 +2,9 @@ require 'omniauth-oauth2'
 
 module OmniAuth
   module Strategies
-    class Yammer < OmniAuth::Strategies::OAuth2
+    class YammerOauth < OmniAuth::Strategies::OAuth2
 
-      option :name, 'yammer'
+      option :name, 'yammer-oauth'
 
       option :client_options, {
         :site => (ENV['YAMMER_DOMAIN'] || 'https://www.yammer.com'),
@@ -69,4 +69,4 @@ module OmniAuth
   end
 end
 
-OmniAuth.config.add_camelization 'yammer', 'Yammer'
+OmniAuth.config.add_camelization 'yammer-oauth', 'Yammer-oAuth'
