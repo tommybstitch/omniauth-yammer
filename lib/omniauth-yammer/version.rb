@@ -1,5 +1,5 @@
 module OmniAuth
-  module Yammer
+  module YammerOauth2
     VERSION = "0.1.0"
   end
 end
