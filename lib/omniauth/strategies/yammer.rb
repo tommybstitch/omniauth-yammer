@@ -69,4 +69,4 @@ module OmniAuth
   end
 end
 
-OmniAuth.config.add_camelization 'yammer-oauth', 'Yammer-oAuth'
+OmniAuth.config.add_camelization 'yammer_oauth', 'Yammer_oAuth'
