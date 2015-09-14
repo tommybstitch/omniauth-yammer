@@ -2,6 +2,7 @@
 require File.expand_path('../lib/omniauth-yammer/version', __FILE__)
 
 Gem::Specification.new do |gem|
+  gem.add_dependency 'omniauth', '>= 1.1.1'
   gem.authors       = ["Alexey Vasiliev"]
   gem.email         = ["leopard.not.a@gmail.com"]
   gem.description   = %q{OmniAuth strategy for Yammer}
